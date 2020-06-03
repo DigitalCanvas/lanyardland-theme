@@ -1,0 +1,36 @@
+# .gitignore
+
+# Dev OS Garbage #
+##################
+.DS_Store
+.Trashes
+Thumbs.db
+*.log
+
+# PhpStorm #
+############
+/.idea/
+
+# Gulp/Grunt and Node #
+#######################
+**/node_modules/
+**/.sass-cache
+**/*lock.json
+
+# Composer Packages #
+#####################
+**/vendor/
+**/composer.lock
+
+# Binaries #
+############
+**/bin/
+
+# Compiled Assets #
+###################
+**/css/
+**/js/*.min*
+
+# Other Miscellaneous stuff #
+#########################
+/db.php
