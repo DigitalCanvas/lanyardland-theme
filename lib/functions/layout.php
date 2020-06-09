@@ -9,7 +9,7 @@
  * @license    GNU General Public License 2.0+
  */
 
-namespace modifiedGenesisSample\Functions;
+namespace landyardLandTheme\Functions;
 
 add_filter( 'genesis_initial_layouts', __NAMESPACE__ . '\filter_layout_config' );
 /**
