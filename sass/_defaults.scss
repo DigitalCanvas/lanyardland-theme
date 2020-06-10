@@ -44,6 +44,11 @@ a:hover {
 }
 
 p {
+  font-family: "Montserrat", Verdana, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: $paragraph--color;
+  opacity: 0.7;
   margin: 0 0 30px;
   padding: 0;
 }
@@ -69,7 +74,11 @@ hr {
 
 b,
 strong {
-  font-weight: 700;
+  font-family: "Montserrat", Verdana, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: $paragraph--color;
+  opacity: 0.7;
 }
 
 blockquote,
@@ -91,32 +100,43 @@ blockquote {
 /* Headings
 --------------------------------------------- */
 
-h1,
-h2,
-h3,
-h4,
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: $heading-h1--color;
+}
+
+h2  {
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: $heading-h2--color;
+}
+
+h3 {
+  font-family: "Montserrat", Verdana, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: $heading-h3--color;
+  opacity: 0.7;
+}
+
+h4 {
+  font-family: "Montserrat", Verdana, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: $heading-h4--color;
+  opacity: 0.7;
+  text-transform: capitalize;
+}
+
 h5,
 h6 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   line-height: 1.2;
   margin: 0 0 20px;
-}
-
-h1 {
-  font-size: 30px;
-}
-
-h2 {
-  font-size: 27px;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-h4 {
-  font-size: 20px;
 }
 
 .entry-content h3,
