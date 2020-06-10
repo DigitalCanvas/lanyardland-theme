@@ -1,3 +1,24 @@
-// * Variables */
+/* Variables -- Colors
+-------------------------------------------*/
+//
+// Base Colors
+//===========================
+$black: #000;
+$blue-dark: #0006a6;
+$green-lime: #00a84f;
 
-// If we had any variables, we'd put them here!
+//
+// Color Configuration
+//===========================
+
+// Heading Elements
+$heading-h1--color: $black;
+$heading-h2--color: $blue-dark;
+$heading-h3--color: $black;
+$heading-h4--color: $black;
+
+// Paragraph
+$paragraph--color: $black;
+
+// Plugins
+$woocommerce-product-price--color: $green-lime;
