@@ -44,9 +44,9 @@ a:hover {
 }
 
 p {
-  font-family: "Montserrat", Verdana, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+  font-family: $font-family--montserrat;
+  font-size: $paragraph--font-size;
+  font-weight: $font-weight--light;
   color: $paragraph--color;
   opacity: 0.7;
   margin: 0 0 30px;
@@ -74,9 +74,9 @@ hr {
 
 b,
 strong {
-  font-family: "Montserrat", Verdana, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+  font-family: $font-family--montserrat;
+  font-size: $strong--font-size;
+  font-weight: $font-weight--medium;
   color: $paragraph--color;
   opacity: 0.7;
 }
@@ -101,41 +101,45 @@ blockquote {
 --------------------------------------------- */
 
 h1 {
-  font-family: "Merriweather", serif;
-  font-size: 26px;
-  font-weight: 700;
+  font-family: $font-family--merriweather;
+  font-size: $h1--font-size;
+  font-weight: $font-weight--bold;
   color: $heading-h1--color;
+  line-height: $headings--line-height;
 }
 
 h2  {
-  font-family: "Merriweather", serif;
-  font-size: 22px;
-  font-weight: 700;
+  font-family: $font-family--merriweather;
+  font-size: $h2--font-size;
+  font-weight: $font-weight--bold;
   color: $heading-h2--color;
+  line-height: $headings--line-height;
 }
 
 h3 {
-  font-family: "Montserrat", Verdana, Arial, sans-serif;
-  font-size: 18px;
-  font-weight: 600;
+  font-family: $font-family--montserrat;
+  font-size: $h3--font-size;
+  font-weight: $font-weight--semi-bold;
   color: $heading-h3--color;
   opacity: 0.7;
+  line-height: $headings--line-height;
 }
 
 h4 {
-  font-family: "Montserrat", Verdana, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+  font-family: $font-family--montserrat;
+  font-size: $h4--font-size;
+  font-weight: $font-weight--medium;
   color: $heading-h4--color;
   opacity: 0.7;
   text-transform: capitalize;
+  line-height: $headings--line-height;
 }
 
 h5,
 h6 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: $font-family--source-sans-pro;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: $headings--line-height;
   margin: 0 0 20px;
 }
 
@@ -433,3 +437,4 @@ th {
   position: relative;
   margin-bottom: 30px;
 }
+

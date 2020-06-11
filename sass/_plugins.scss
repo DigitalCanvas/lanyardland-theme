@@ -131,9 +131,9 @@
 }
 
 .woocommerce-Price-amount.amount {
-  font-family: "Montserrat", Verdana, Arial, sans-serif;
-  font-size: 24px;
-  font-weight: 500;
+  font-family: $font-family--montserrat;
+  font-size: $woocommerce-product-price--font-size;
+  font-weight: $font-weight--light;
   color: $woocommerce-product-price--color;
 }
 
