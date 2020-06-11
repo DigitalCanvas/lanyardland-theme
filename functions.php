@@ -40,6 +40,9 @@ require_once get_stylesheet_directory() . '/lib/customize.php';
 // Includes Customizer CSS.
 require_once get_stylesheet_directory() . '/lib/output.php';
 
+// Includes layouts configuration for available theme settings
+require_once get_stylesheet_directory() . '/lib/functions/layout.php';
+
 // Adds WooCommerce support.
 require_once get_stylesheet_directory() . '/lib/woocommerce/woocommerce-setup.php';
 
