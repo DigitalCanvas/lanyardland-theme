@@ -1,0 +1,20 @@
+// List Items
+//==========================================
+/* Target a parent <ul> element with the .color-with-pseudo class.
+      Then use the :before pseudo-element to target the bullet <li> items within. */
+.color-with-pseudo {
+  list-style: none;
+  list-style-position: inside;
+
+  li:before {
+    content: "•"; // Substitute ">" to render a "carrot" bullet list item instead.
+    font-size: $list-item-bullet--font-size;
+    font-weight: $font-weight--medium;
+    line-height: 0;
+    margin: 0 5px 0 -2.5px;
+    position: relative;
+    top: 2.5px;
+    color: $list-item--color-bullet;
+  }
+}
+

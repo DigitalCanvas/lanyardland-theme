@@ -2,7 +2,8 @@
  * Root SASS style file.
  */
 
-@import "variables";
+@import "variables/index";
+@import "components/index";
 @import "reset";
 @import "defaults";
 @import "structure";

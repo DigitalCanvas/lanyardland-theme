@@ -1,0 +1,25 @@
+// Base Colors
+//===========================
+$black: #000;
+$blue-dark: #0060a6;
+$green-lime: #00a84f;
+
+// Color Configuration for Document Elements
+//==========================================
+
+// Headings
+$heading-h1--color: $black;
+$heading-h2--color: $blue-dark;
+$heading-h3--color: $black;
+$heading-h4--color: $black;
+
+// Paragraph
+$paragraph--color: $black;
+
+// List Items
+$list-item--color-content: $black;
+$list-item--color-bullet: $blue-dark;
+
+// Plugins
+$woocommerce-product-price--color: $green-lime;
+

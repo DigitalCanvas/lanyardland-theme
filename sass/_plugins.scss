@@ -108,3 +108,21 @@
 .site-container .entry-content .wpforms-form textarea.wpforms-field-large {
   height: 300px;
 }
+
+/* WooCommerce
+--------------------------------------------- */
+.woocommerce-product-details__short-description {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.woocommerce-Price-amount.amount {
+  font-family: $font-family--montserrat;
+  font-size: $woocommerce-product-price--font-size;
+  font-weight: $font-weight--light;
+  color: $woocommerce-product-price--color;
+}
+
