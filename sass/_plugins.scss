@@ -112,17 +112,6 @@
 /* WooCommerce
 --------------------------------------------- */
 .woocommerce-product-details__short-description {
-  ::before {
-    content: " ";
-    display: table;
-  }
-
-  ::after {
-    clear: both;
-    content: " ";
-    display: table;
-  }
-
   display: inline-flex;
   flex-direction: column;
   flex-wrap: nowrap;
